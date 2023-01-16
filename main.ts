@@ -317,7 +317,7 @@ scene.cameraFollowSprite(coche)
 tiles.placeOnRandomTile(coche, sprites.skillmap.islandTile4)
 info.setLife(3)
 info.setScore(0)
-game.onUpdateInterval(2000, function () {
+game.onUpdateInterval(1000, function () {
     meteorito = sprites.create(img`
         . . . . . . c c . . . . . c c . 
         . . . c c . c 3 c . c c . c 3 c 
